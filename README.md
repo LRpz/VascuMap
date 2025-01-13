@@ -62,6 +62,8 @@ python src/inference.py \
     --thresholding_method "hysteresis"
 ```
 
+Pretrained model from the paper 'Self-organization of vascularized skeletal muscle from bovine embryonic stem cells' (doi: 10.1101/2024.03.22.586252) can be found at https://zenodo.org/records/14639362
+
 Inference Arguments
 - `--images_dir_path`: Path to the directory containing images for inference (required)
 - `--model_checkpoint_path`: Path to the model checkpoint (.ckpt) (required)
