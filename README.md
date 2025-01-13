@@ -21,7 +21,7 @@ Train a new model using the following command:
 python src/training.py \
     --images_dir_path "/path/to/training/images" \
     --masks_dir_path "/path/to/training/masks" \
-    --model_dir_path "/path/to/save/mode"l \
+    --model_dir_path "/path/to/save/model" \
     --model_architecture "Unet" \
     --encoder_architecture "mit_b5" \
     --input_channels 1 \
